@@ -21,4 +21,5 @@ from Upload_image_app import views
 urlpatterns = [
     path("upload", views.Image_upload),
     path("uploadview", views.View_uploads),
+    path('upload_django/', views.image_upload_view),
 ]
